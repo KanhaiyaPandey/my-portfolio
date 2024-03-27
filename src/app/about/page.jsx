@@ -41,10 +41,8 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+           Hello, I'm Kanhaiya Pandey, a dedicated full-stack web developer specializing in the MERN stack. With a bachelor's degree in computer application, 
+              I bring a strong foundation in software development and a passion for crafting dynamic, scalable web solutions. Let's build innovative digital experiences together.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
