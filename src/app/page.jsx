@@ -22,9 +22,9 @@ const Homepage = () => {
           {/* TITLE */}
           <h1 className='text-3xl md:text-6xl font-bold'>Web Developer & Web Designer</h1>
           {/* desc */}
-          <p className='md:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, quod! a
-           lias deleniti quod tenetur dolorum vitae.</p>
+          <p className='md:text-xl'>Experienced full-stack web developer proficient in front-end and back-end technologies. 
+            Skilled in HTML, CSS, JavaScript, and various frameworks. Proficient in database management and server-side languages.
+            Committed to creating responsive, user-friendly websites and applications to meet client needs and enhance online experiences.</p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
            <Link href="/portfolio"><button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
