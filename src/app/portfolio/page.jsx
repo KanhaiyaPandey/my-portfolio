@@ -8,34 +8,34 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Company Portfolio",
+    desc: "React based portfolio, Showing services provided by a company. Used Tailwind CSS for styling and framer motion for animation",
     img: "/gt-karwin.png",
-    link: "https://lama.dev",
+    link: "https://karwin.netlify.app/",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Charity webApp",
+    desc: "Blood donation charity website to promote blood donation among people . Full functional Front-end & Back-end. With Bloodbank's dashboard , Charts and inventory of Blood. Near blood-bank location search and notification for blood requierment to the donors. MERN stack",
     img: "/light.png",
-    link: "https://lama.dev",
+    link: "https://light-charity.onrender.com/",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "E-commerce",
+    desc: "MERN stack e commerce website for shopping furniture and hose decore",
     img: "/d-core.png",
-    link: "https://lama.dev",
+    link: "https://decorekp.netlify.app/",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "MERN tech",
+    desc: "MERN stack job tracking website to track your job application history. Tailwind for CSS.",
     img: "/job.png",
-    link: "https://lama.dev",
+    link: "https://jobfind.onrender.com/",
   },
 ];
 
@@ -68,8 +68,8 @@ const PortfolioPage = () => {
                   <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
-                    <Image src={item.img} alt="" fill />
+                  <div className="relative w-[800px] h-[500px] md:w-[700px] md:h-[400px] lg:w-[800px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
+                    <Image src={item.img} alt="" fill  />
                   </div>
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
